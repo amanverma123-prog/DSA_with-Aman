@@ -40,11 +40,19 @@ This repository contains my solutions to Binary Search problems from Striver's D
   `upperBound.cpp`
   → First index where element > target
 
+* **LC153 – Find Minimum in Rotated Sorted Array**
+  `findMin.cpp`
+  → Compared `mid` with `high` to locate rotation pivot efficiently
+
+* **LC154 – Find Minimum in Rotated Sorted Array II**
+  `findMin_duplicates.cpp`
+  → Handled ambiguity using `high--` when duplicates occur
+
 ---
 
 ## 📈 Progress
 
-* Total Problems Solved: **7**
+* Total Problems Solved: **9**
 * Topic: **Binary Search**
 
 ---
@@ -54,7 +62,8 @@ This repository contains my solutions to Binary Search problems from Striver's D
 * Binary search patterns (left bias / right bias)
 * Lower bound & upper bound
 * Floor & ceil concepts
-* Handling duplicates in rotated arrays
+* Handling rotated sorted arrays (with & without duplicates)
+* Managing ambiguity in binary search
 * Edge case handling
 
 ---
@@ -63,6 +72,8 @@ This repository contains my solutions to Binary Search problems from Striver's D
 
 * Solve more advanced binary search problems
 * Move to next topic (Arrays / Sliding Window)
+
+---
 
 ## 📌 Note
 
