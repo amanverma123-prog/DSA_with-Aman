@@ -28,6 +28,13 @@ This repository contains my solutions to Binary Search problems from Striver's D
   `search_rotated_duplicates.cpp`
   → Handled duplicates using shrinking technique (`low++`, `high--`)
 
+* **LC153 – Find Minimum in Rotated Sorted Array**
+  `findMin.cpp`
+  → Compared `mid` with `high` to locate rotation pivot efficiently
+
+* **LC154 – Find Minimum in Rotated Sorted Array II**
+  `findMin_duplicates.cpp`
+  → Handled ambiguity using `high--` when duplicates occur
 ---
 
 ### 📌 Concept-Based Problems
@@ -39,14 +46,6 @@ This repository contains my solutions to Binary Search problems from Striver's D
 * **Upper Bound of an Element**
   `upperBound.cpp`
   → First index where element > target
-
-* **LC153 – Find Minimum in Rotated Sorted Array**
-  `findMin.cpp`
-  → Compared `mid` with `high` to locate rotation pivot efficiently
-
-* **LC154 – Find Minimum in Rotated Sorted Array II**
-  `findMin_duplicates.cpp`
-  → Handled ambiguity using `high--` when duplicates occur
 
 ---
 
