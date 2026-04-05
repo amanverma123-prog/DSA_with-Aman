@@ -35,6 +35,9 @@ This repository contains my solutions to Binary Search problems from Striver's D
 * **LC154 – Find Minimum in Rotated Sorted Array II**
   `findMin_duplicates.cpp`
   → Handled ambiguity using `high--` when duplicates occur
+
+* **Count k Number Rotation in a Sorted Array**
+  `findKRotation.cpp`
 ---
 
 ### 📌 Concept-Based Problems
