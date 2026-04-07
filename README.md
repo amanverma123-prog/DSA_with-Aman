@@ -1,51 +1,64 @@
-🚀 Striver's DSA – Binary Search
+# 🔍 Striver's DSA — Binary Search
 
-📚 A curated collection of Binary Search problems from Striver’s DSA Sheet, solved using C++ with a focus on patterns, optimization, and clarity.
+> C++ solutions from Striver's DSA Sheet, organized by pattern.
 
-📂 Problems Covered
-🔹 Pattern-Based Problems
-Problem	File	Approach
-LC34 – First & Last Position	LC34_search_range.cpp	Binary search twice (first & last occurrence)
-LC35 – Search Insert Position	LC35_search_insert.cpp	Lower bound concept
-Count Occurrences	count_occurrences.cpp	First + Last occurrence
-LC33 – Search in Rotated Array	search_rotated.cpp	Identify sorted half
-LC81 – Rotated Array II	search_rotated_duplicates.cpp	Handle duplicates carefully
-LC153 – Find Minimum	findMin.cpp	Compare mid with high
-LC154 – Find Minimum II	findMin_duplicates.cpp	Shrink space with duplicates
-Count Rotations	findKRotation.cpp	Index of minimum
-Floor Square Root	floorSqrt.cpp	Binary search on answer
-Nth Root of a Number	nthRoot.cpp	Binary search + overflow handling
-🔸 Advanced Problems
-Problem	File	Concept
-LC540 – Single Non-Duplicate	singleNonDuplicate.cpp	Index parity trick
-LC162 – Find Peak Element	findPeakElement.cpp	Slope-based binary search
-🧠 Core Concepts
-Concept	File
-Floor & Ceil	floor_ceil.cpp
-Upper Bound	upperBound.cpp
-📈 Progress Tracker
-✅ Problems Solved: 12
-📌 Topic: Binary Search
-💻 Language: C++
-💡 Key Learnings
+![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
+![Topic](https://img.shields.io/badge/Topic-Binary%20Search-teal?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
-✔ Mastered binary search patterns
-✔ Understood lower bound & upper bound deeply
-✔ Learned handling of rotated sorted arrays
-✔ Tackled duplicates edge cases
-✔ Applied index parity & slope logic
+---
 
-🛠️ How to Use
-Clone the repository
-Navigate to any problem file
-Run using your preferred C++ compiler
-g++ filename.cpp -o output
-./output
-📌 Note
+## 📁 Problems Solved
 
-🚧 This repository is actively maintained as part of my DSA journey.
-More problems and optimizations coming soon!
+### 📌 Pattern-Based
 
-⭐ If You Find This Helpful
+| # | Problem | File |
+|---|---------|------|
+| LC 34 | First & Last Position | `LC34_search_range.cpp` |
+| LC 35 | Search Insert Position | `LC35_search_insert.cpp` |
+| — | Count Occurrences | `count_occurrences.cpp` |
+| LC 33 | Search in Rotated Array | `search_rotated.cpp` |
+| LC 81 | Rotated Array II | `search_rotated_duplicates.cpp` |
+| LC 153 | Find Minimum | `findMin.cpp` |
+| LC 154 | Find Minimum II | `findMin_duplicates.cpp` |
+| — | Count Rotations | `findKRotation.cpp` |
+| — | Floor Square Root | `floorSqrt.cpp` |
+| — | Nth Root of a Number | `nthRoot.cpp` |
 
-Give it a ⭐ and feel free to explore, fork, or contribute!
+### 📌 Advanced
+
+| # | Problem | File |
+|---|---------|------|
+| LC 540 | Single Non-Duplicate | `singleNonDuplicate.cpp` |
+| LC 162 | Find Peak Element | `findPeakElement.cpp` |
+
+### 📌 Concepts
+
+| # | Problem | File |
+|---|---------|------|
+| — | Floor & Ceil | `floor_ceil.cpp` |
+| — | Upper Bound | `upperBound.cpp` |
+
+---
+
+## 📈 Progress
+
+| Metric | Value |
+|--------|-------|
+| Problems Solved | 12 |
+| Pattern Groups | 3 |
+| Language | C++ |
+
+---
+
+## 💡 Key Learnings
+
+- Binary search patterns
+- Lower & upper bound
+- Rotated arrays & handling duplicates
+- Index parity & slope-based reasoning
+
+---
+
+> 📌 Updated regularly as part of ongoing DSA practice on Striver's sheet.
