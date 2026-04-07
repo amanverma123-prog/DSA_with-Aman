@@ -30,6 +30,9 @@ findKRotation.cpp
 Floor SquareRoot
 floorSqrt.cpp
 
+nth Root of a Number
+nthRoot.cpp
+
 📌 Advanced
 LC540 – Single Non Duplicate
 singleNonDuplicate.cpp
