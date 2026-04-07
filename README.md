@@ -27,6 +27,9 @@ findMin_duplicates.cpp
 Count Rotations
 findKRotation.cpp
 
+Floor SquareRoot
+floorSqrt.cpp
+
 📌 Advanced
 LC540 – Single Non Duplicate
 singleNonDuplicate.cpp
