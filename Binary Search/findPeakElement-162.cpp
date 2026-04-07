@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 // TC = O(logn), SC = O(1)
-int singleNonDuplicate(vector<int> a, int n){
+int findPeakElement(vector<int> a, int n){
         if(n == 1)
             return 0;
         if(a[0] > a[1])
@@ -24,6 +24,6 @@ int singleNonDuplicate(vector<int> a, int n){
 int main(){
     vector<int> arr = {1,2,1,3,5,6,4};
     int n = arr.size();
-    cout<<singleNonDuplicate(arr, n);
+    cout<<findPeakElement(arr, n);
     return 0;
 }
