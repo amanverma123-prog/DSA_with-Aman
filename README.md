@@ -45,17 +45,16 @@ Upper Bound
 upperBound.cpp
 
 📈 Progress
-Problems Solved: 11
+Problems Solved: 12
 Topic: Binary Search
 Language: C++
+
 💡 Key Learnings
 Binary search patterns
 Lower & upper bound
 Rotated arrays
 Handling duplicates
 Index parity & slope logic
-🎯 Next
-More problems
-Arrays / Sliding Window
+
 📌 Note
 Updated regularly as part of my DSA practice.
