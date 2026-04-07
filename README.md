@@ -1,82 +1,61 @@
-# 🚀 Striver's DSA – Binary Search
+🚀 Striver's DSA – Binary Search
+<p align="center"> <img src="https://img.shields.io/badge/Language-C++-blue.svg" /> <img src="https://img.shields.io/badge/Problems%20Solved-11-brightgreen.svg" /> <img src="https://img.shields.io/badge/Topic-Binary%20Search-orange.svg" /> </p>
 
-This repository contains my solutions to Binary Search problems from Striver's DSA Sheet, with a focus on patterns and optimization.
+This repository contains my solutions to Binary Search problems from Striver's DSA Sheet, with a strong focus on:
 
----
+🔍 Pattern Recognition
+⚡ Optimized Approaches (O(log n))
+🧠 Clean & Understandable Code
+📂 Problems Solved
+📌 Pattern-Based Problems
+Problem	File	Approach	Complexity
+LC34 – Find First and Last Position	LC34_search_range.cpp	Binary search twice (first & last)	O(log n)
+LC35 – Search Insert Position	LC35_search_insert.cpp	Lower bound	O(log n)
+Count Occurrences	count_occurrences.cpp	last - first + 1	O(log n)
+LC33 – Search in Rotated Array	search_rotated.cpp	Sorted half logic	O(log n)
+LC81 – Rotated Array II	search_rotated_duplicates.cpp	Duplicate shrinking	O(log n) avg
+LC153 – Find Minimum	findMin.cpp	Mid vs high	O(log n)
+LC154 – Find Minimum II	findMin_duplicates.cpp	Handle duplicates	O(log n) avg
+Count Rotations	findKRotation.cpp	Index of minimum	O(log n)
+📌 Advanced Binary Search Applications
+Problem	File	Approach	Complexity
+LC540 – Single Non Duplicate	singleNonDuplicate.cpp	Index parity (mid ^ 1)	O(log n)
+LC162 – Find Peak Element	findPeakElement.cpp	Slope-based decision	O(log n)
+📌 Concept-Based Problems
+Problem	File	Concept	Complexity
+Floor & Ceil	floor_ceil.cpp	Tracking answers	O(log n)
+Upper Bound	upperBound.cpp	First > target	O(log n)
+📈 Progress Tracker
+✅ Problems Solved: 11
+📘 Topic: Binary Search
+💻 Language: C++
+📅 Consistency: Daily Practice
+💡 Key Learnings
+Binary search patterns (left bias / right bias)
+Lower bound & upper bound mastery
+Handling rotated sorted arrays
+Dealing with duplicates & ambiguity
+Index parity tricks (LC540)
+Slope-based binary search (LC162)
+Writing clean and optimized code
+🔗 Problem Links
+LC34
+LC35
+LC33
+LC81
+LC153
+LC154
+LC540
+LC162
+🎯 Next Goals
+🚀 Solve Hard-level binary search problems
+📊 Start Arrays & Sliding Window
+🧩 Improve problem intuition & edge case handling
+📌 Note
 
-## 📂 Problems Solved
+This repository is actively maintained as part of my DSA journey using Striver’s Sheet.
+I aim to build strong problem-solving skills and maintain a structured GitHub profile.
 
-### 📌 Pattern-Based Problems
+⭐ If you find this helpful
 
-* **LC34 – Find First and Last Position**
-  `LC34_search_range.cpp`
-  → Used binary search twice (first & last occurrence)
-
-* **LC35 – Search Insert Position**
-  `LC35_search_insert.cpp`
-  → Applied lower bound concept
-
-* **Count Occurrences of Target**
-  `count_occurrences.cpp`
-  → Count = last - first + 1
-
-* **LC33 – Search in Rotated Sorted Array**
-  `search_rotated.cpp`
-  → Modified binary search using sorted half logic
-
-* **LC81 – Search in Rotated Sorted Array II**
-  `search_rotated_duplicates.cpp`
-  → Handled duplicates using shrinking technique (`low++`, `high--`)
-
-* **LC153 – Find Minimum in Rotated Sorted Array**
-  `findMin.cpp`
-  → Compared `mid` with `high` to locate rotation pivot efficiently
-
-* **LC154 – Find Minimum in Rotated Sorted Array II**
-  `findMin_duplicates.cpp`
-  → Handled ambiguity using `high--` when duplicates occur
-
-* **Count k Number Rotation in a Sorted Array**
-  `findKRotation.cpp`
----
-
-### 📌 Concept-Based Problems
-
-* **Floor and Ceil in Sorted Array**
-  `floor_ceil.cpp`
-  → Tracked potential answers using binary search
-
-* **Upper Bound of an Element**
-  `upperBound.cpp`
-  → First index where element > target
-
----
-
-## 📈 Progress
-
-* Total Problems Solved: **9**
-* Topic: **Binary Search**
-
----
-
-## 💡 Key Learnings
-
-* Binary search patterns (left bias / right bias)
-* Lower bound & upper bound
-* Floor & ceil concepts
-* Handling rotated sorted arrays (with & without duplicates)
-* Managing ambiguity in binary search
-* Edge case handling
-
----
-
-## 🎯 Next Goals
-
-* Solve more advanced binary search problems
-* Move to next topic (Arrays / Sliding Window)
-
----
-
-## 📌 Note
-
-I consistently update this repository as I progress through the sheet.
+Consider giving this repo a ⭐ — it motivates consistency!
