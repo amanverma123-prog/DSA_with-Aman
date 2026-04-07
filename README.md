@@ -46,7 +46,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Problems Solved | 12 |
+| Problems Solved | 16 |
 | Pattern Groups | 3 |
 | Language | C++ |
 
