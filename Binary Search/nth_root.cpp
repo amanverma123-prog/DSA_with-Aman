@@ -25,6 +25,7 @@ int nthRoot(int N, int M){
     }
     return -1;
 }
+// TC = O(logm * logn)
 int main(){
     int N = 3, M = 27;
     cout<<nthRoot(N, M);
