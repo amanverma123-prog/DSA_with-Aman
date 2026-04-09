@@ -1,10 +1,9 @@
 # 🔍 Striver's DSA — Binary Search
-
 > C++ solutions from Striver's DSA Sheet, organized by pattern.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Search-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-17%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-18%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -12,7 +11,6 @@
 ## 📁 Problems Solved
 
 ### 📌 Pattern-Based
-
 | # | Problem | File |
 |---|---------|------|
 | LC 34 | First & Last Position | `LC34_search_range.cpp` |
@@ -24,24 +22,21 @@
 | LC 154 | Find Minimum II | `findMin_duplicates.cpp` |
 | — | Count Rotations | `findKRotation.cpp` |
 
-
 ### 📌 Advanced
-
 | # | Problem | File |
 |---|---------|------|
 | LC 540 | Single Non-Duplicate | `singleNonDuplicate.cpp` |
 | LC 162 | Find Peak Element | `findPeakElement.cpp` |
 
 ### 📌 Binary Search on Answer
-
 | # | Problem | File |
 |---|---------|------|
 | — | Floor Square Root | `floorSqrt.cpp` |
 | — | Nth Root of a Number | `nthRoot.cpp` |
 | LC 875 | Koko Eating Bananas | `minEatingSpeed.cpp` |
+| LC 1482 | Minimum Days to Make Bouquets | `minDays.cpp` |
 
 ### 📌 Concepts
-
 | # | Problem | File |
 |---|---------|------|
 | — | Floor & Ceil | `floor_ceil.cpp` |
@@ -50,17 +45,15 @@
 ---
 
 ## 📈 Progress
-
 | Metric | Value |
 |--------|-------|
-| Problems Solved | 17 |
+| Problems Solved | 18 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
 ---
 
 ## 💡 Key Learnings
-
 - Binary search patterns  
 - Lower & upper bound  
 - Rotated arrays & handling duplicates  
@@ -68,6 +61,7 @@
 - Binary Search on Answer (monotonic functions)  
 - Ceil division trick: `(a + b - 1) / b`  
 - Handling overflow using `long long`  
+- Consecutive element grouping with sliding count reset  
 
 ---
 
