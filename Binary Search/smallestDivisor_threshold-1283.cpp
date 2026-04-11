@@ -2,6 +2,7 @@
 #include<vector>
 #include<climits>
 using namespace std;
+// TC = O(log(max) * n)
 int maxVal(vector<int>& a, int n){
     int maxi = INT_MIN;
     for(auto val : a){
