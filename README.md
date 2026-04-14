@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Search-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-23%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-24%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -58,6 +58,14 @@
 
 ---
 
+### 📌 Binary Search on 2D Arrays
+
+| #     | Problem            | File                 |
+| ----- | ------------------ | -------------------- |
+| LC 74 | Search 2D Matrix   | `searchMatrix.cpp`   |
+
+---
+
 ### 📌 Concepts
 
 | # | Problem      | File             |
@@ -71,8 +79,8 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 23    |
-| Pattern Groups  | 5     |
+| Problems Solved | 24    |
+| Pattern Groups  | 6     |
 | Language        | C++   |
 
 ---
@@ -93,6 +101,7 @@
 * Partition-based Binary Search (Median of Two Sorted Arrays)
 * Working with two arrays without merging
 * Maintaining left/right balance using cuts
+* Binary Search on 2D arrays (index mapping technique)
 
 ---
 
