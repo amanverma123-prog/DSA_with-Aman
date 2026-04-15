@@ -52,7 +52,8 @@ int main()
     vector<vector<int>> arr = {
         {3, 4, 7, 9},
         {12, 13, 16, 19},
-        {20, 21, 23, 29}};
+        {20, 21, 23, 29}
+    };
     int target = 16;
     cout << searchMatrix(arr, target);
     return 0;
