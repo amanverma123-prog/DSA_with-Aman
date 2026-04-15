@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Search-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-25%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-26%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -52,18 +52,19 @@
 
 ### 🧠 Partition-Based Binary Search (🔥 High Value)
 
-| #    | Problem                     | File                        |
-| ---- | --------------------------- | --------------------------- |
-| LC 4 | Median of Two Sorted Arrays | `median_two_sorted.cpp`     |
+| #    | Problem                     | File                    |
+| ---- | --------------------------- | ----------------------- |
+| LC 4 | Median of Two Sorted Arrays | `median_two_sorted.cpp` |
 
 ---
 
 ### 📌 Binary Search on 2D Arrays
 
-| #     | Problem                      | File                 |
-| ----- | ---------------------------- | -------------------- |
-| LC 74 | Search 2D Matrix             | `searchMatrix.cpp`   |
-| LC 240| Search 2D Matrix II          | `searchMatrixII.cpp` |
+| #       | Problem                      | File                   |
+| ------- | ---------------------------- | ---------------------- |
+| LC 74   | Search 2D Matrix             | `searchMatrix.cpp`     |
+| LC 240  | Search 2D Matrix II          | `searchMatrixII.cpp`   |
+| LC 1901 | Find Peak Element II         | `findPeakGrid.cpp`     |
 
 ---
 
@@ -80,7 +81,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 25    |
+| Problems Solved | 26    |
 | Pattern Groups  | 6     |
 | Language        | C++   |
 
@@ -104,6 +105,7 @@
 * Maintaining left/right balance using cuts
 * Binary Search on 2D arrays (index mapping technique)
 * 2D matrix traversal using **top-right greedy approach (O(n + m))**
+* 2D Peak Finding using **Binary Search on Columns (O(n log m))**
 
 ---
 
