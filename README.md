@@ -8,8 +8,8 @@ This repository contains my solutions to Data Structures and Algorithms problems
 
 * 💻 Language: **C++**
 * 📚 Platform: **LeetCode / Striver’s DSA Sheet**
-* 🎯 Goal: Strengthen problem-solving skills & crack technical interviews
-* 📈 Approach: Consistency + Concept Clarity
+* 🎯 Goal: Build strong problem-solving skills for technical interviews
+* 📈 Focus: Consistency and concept clarity
 
 ---
 
@@ -18,46 +18,43 @@ This repository contains my solutions to Data Structures and Algorithms problems
 ```
 DSA/
  ├── Arrays/
- ├── Strings/
  ├── Sorting/
  ├── Binary Search/
+ ├── Strings/ (in progress)
 ```
-
-Each folder contains problems categorized by topic along with optimized solutions.
 
 ---
 
 ## 📊 Topics Covered
 
 * ✅ Arrays
-* ✅ Strings
 * ✅ Sorting
 * ✅ Binary Search
-* ⏳ More coming soon...
+* 🔄 Strings (ongoing)
 
 ---
 
 ## ⚡ Key Learnings
 
-* Importance of **time & space complexity**
-* Mastering **two-pointer technique**
-* Understanding **binary search patterns**
+* Understanding **time & space complexity**
+* Applying **two-pointer technique**
+* Learning **binary search patterns**
 * Writing clean and optimized code
 
 ---
 
-## 🔥 Progress Tracker
+## 📈 Progress
 
-* 📅 Daily DSA practice
-* 🚀 Currently on a consistency streak
-* 🧠 Focus: Problem-solving patterns over memorization
+* 📅 Consistently solving DSA problems
+* 🚀 Currently building strong fundamentals
+* 🧠 Focusing on patterns over memorization
 
 ---
 
 ## 💡 How to Use
 
-* Browse topic-wise folders
-* Each file contains:
+* Explore topic-wise folders
+* Each file includes:
 
   * Problem name
   * Approach
@@ -65,18 +62,17 @@ Each folder contains problems categorized by topic along with optimized solution
 
 ---
 
-## 🚀 Future Goals
+## 🚀 Goals
 
-* Complete Striver’s DSA Sheet
-* Solve 300+ problems
-* Improve speed and accuracy
-* Prepare for technical interviews
+* Strengthen core DSA concepts
+* Improve problem-solving speed
+* Build consistency in daily practice
 
 ---
 
-## 🤝 Connect with Me
+## 🤝 Connect
 
-If you're also on a DSA journey, feel free to connect and learn together!
+Open to learning and growing with others on a similar journey.
 
 ---
 
