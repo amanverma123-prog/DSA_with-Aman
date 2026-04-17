@@ -1,112 +1,83 @@
-# 🔍 Striver's DSA — Binary Search
+# 🚀 DSA Journey in C++
 
-> C++ solutions from Striver's DSA Sheet, organized by pattern.
-
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
-![Topic](https://img.shields.io/badge/Topic-Binary%20Search-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-26%20Problems-purple?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
+This repository contains my solutions to Data Structures and Algorithms problems, solved consistently as part of my learning journey.
 
 ---
 
-## 📁 Problems Solved
+## 📌 About
 
-### 📌 Pattern-Based
-
-| #       | Problem                     | File                            |
-| ------- | --------------------------- | ------------------------------- |
-| LC 34   | First & Last Position       | `LC34_search_range.cpp`         |
-| LC 35   | Search Insert Position      | `LC35_search_insert.cpp`        |
-| —       | Count Occurrences           | `count_occurrences.cpp`         |
-| LC 33   | Search in Rotated Array     | `search_rotated.cpp`            |
-| LC 81   | Rotated Array II            | `search_rotated_duplicates.cpp` |
-| LC 153  | Find Minimum                | `findMin.cpp`                   |
-| LC 154  | Find Minimum II             | `findMin_duplicates.cpp`        |
-| —       | Count Rotations             | `findKRotation.cpp`             |
-| LC 1539 | Kth Missing Positive Number | `kthMissing.cpp`                |
+* 💻 Language: **C++**
+* 📚 Platform: **LeetCode / Striver’s DSA Sheet**
+* 🎯 Goal: Strengthen problem-solving skills & crack technical interviews
+* 📈 Approach: Consistency + Concept Clarity
 
 ---
 
-### 📌 Advanced
+## 🗂️ Folder Structure
 
-| #      | Problem              | File                     |
-| ------ | -------------------- | ------------------------ |
-| LC 540 | Single Non-Duplicate | `singleNonDuplicate.cpp` |
-| LC 162 | Find Peak Element    | `findPeakElement.cpp`    |
+```
+DSA/
+ ├── Arrays/
+ ├── Strings/
+ ├── Sorting/
+ ├── Binary Search/
+```
 
----
-
-### 📌 Binary Search on Answer
-
-| #       | Problem                          | File                  |
-| ------- | -------------------------------- | --------------------- |
-| —       | Floor Square Root                | `floorSqrt.cpp`       |
-| —       | Nth Root of a Number             | `nthRoot.cpp`         |
-| LC 875  | Koko Eating Bananas              | `minEatingSpeed.cpp`  |
-| LC 1482 | Minimum Days to Make Bouquets    | `minDays.cpp`         |
-| LC 1283 | Smallest Divisor Given Threshold | `smallestDivisor.cpp` |
-| LC 1011 | Capacity to Ship Packages        | `shipWithinDays.cpp`  |
-| LC 410  | Split Array Largest Sum          | `splitArray-410.cpp`  |
+Each folder contains problems categorized by topic along with optimized solutions.
 
 ---
 
-### 🧠 Partition-Based Binary Search (🔥 High Value)
+## 📊 Topics Covered
 
-| #    | Problem                     | File                    |
-| ---- | --------------------------- | ----------------------- |
-| LC 4 | Median of Two Sorted Arrays | `median_two_sorted.cpp` |
-
----
-
-### 📌 Binary Search on 2D Arrays
-
-| #       | Problem                      | File                   |
-| ------- | ---------------------------- | ---------------------- |
-| LC 74   | Search 2D Matrix             | `searchMatrix.cpp`     |
-| LC 240  | Search 2D Matrix II          | `searchMatrixII.cpp`   |
-| LC 1901 | Find Peak Element II         | `findPeakGrid.cpp`     |
+* ✅ Arrays
+* ✅ Strings
+* ✅ Sorting
+* ✅ Binary Search
+* ⏳ More coming soon...
 
 ---
 
-### 📌 Concepts
+## ⚡ Key Learnings
 
-| # | Problem      | File             |
-| - | ------------ | ---------------- |
-| — | Floor & Ceil | `floor_ceil.cpp` |
-| — | Upper Bound  | `upperBound.cpp` |
-
----
-
-## 📈 Progress
-
-| Metric          | Value |
-| --------------- | ----- |
-| Problems Solved | 26    |
-| Pattern Groups  | 6     |
-| Language        | C++   |
+* Importance of **time & space complexity**
+* Mastering **two-pointer technique**
+* Understanding **binary search patterns**
+* Writing clean and optimized code
 
 ---
 
-## 💡 Key Learnings
+## 🔥 Progress Tracker
 
-* Binary search patterns
-* Lower & upper bound
-* Rotated arrays & handling duplicates
-* Index parity & slope-based reasoning
-* Binary Search on Answer (monotonic functions)
-* Binary Search on Index (missing elements logic)
-* Ceil division trick: `(a + b - 1) / b`
-* Handling overflow using `long long`
-* Greedy + binary search combination
-* Load distribution problems (capacity / partition type)
-* Partition problems (Split Array / Book Allocation pattern)
-* Partition-based Binary Search (Median of Two Sorted Arrays)
-* Working with two arrays without merging
-* Maintaining left/right balance using cuts
-* Binary Search on 2D arrays (index mapping technique)
-* 2D matrix traversal using **top-right greedy approach (O(n + m))**
-* 2D Peak Finding using **Binary Search on Columns (O(n log m))**
+* 📅 Daily DSA practice
+* 🚀 Currently on a consistency streak
+* 🧠 Focus: Problem-solving patterns over memorization
 
 ---
 
-> 📌 Updated regularly as part of ongoing DSA practice on Striver's sheet.
+## 💡 How to Use
+
+* Browse topic-wise folders
+* Each file contains:
+
+  * Problem name
+  * Approach
+  * Code implementation
+
+---
+
+## 🚀 Future Goals
+
+* Complete Striver’s DSA Sheet
+* Solve 300+ problems
+* Improve speed and accuracy
+* Prepare for technical interviews
+
+---
+
+## 🤝 Connect with Me
+
+If you're also on a DSA journey, feel free to connect and learn together!
+
+---
+
+⭐ If you find this helpful, consider giving it a star!
