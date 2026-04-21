@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-7%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-8%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -13,30 +13,31 @@
 
 ### 📌 String Basics
 
-| #       | Problem                  | File                    |
-| ------- | ------------------------ | ----------------------- |
-| LC 344  | Reverse String           | `reverseString.cpp`     |
-| —       | Palindrome or Not        | `palindrome.cpp`        |
-| LC 125  | Valid Palindrome         | `validpalindrome-125.cpp` |
-| —       | Strings Basics           | `stringsBsics.cpp`      |
+| #       | Problem                  | File                          |
+| ------- | ------------------------ | ----------------------------- |
+| LC 344  | Reverse String           | `reverseString.cpp`           |
+| —       | Palindrome or Not        | `palindrome.cpp`              |
+| LC 125  | Valid Palindrome         | `validpalindrome-125.cpp`     |
+| —       | Strings Basics           | `stringsBasics.cpp`           |
 
 ---
 
 ### 📌 String Manipulation
 
-| #       | Problem                  | File                        |
-| ------- | ------------------------ | --------------------------- |
-| LC 1108 | Defang an IP Address     | `defangIPAdrress-1108.cpp`  |
-| LC 1910 | Remove Occurrences       | `removeOccurences-1910.cpp` |
+| #       | Problem                  | File                              |
+| ------- | ------------------------ | --------------------------------- |
+| LC 1108 | Defang an IP Address     | `defangIPAdrress-1108.cpp`        |
+| LC 1910 | Remove Occurrences       | `removeOccurences-1910.cpp`       |
+| LC 2785 | Sort Vowels in a String  | `sortVowels-2785.cpp`             |
 
 ---
 
 ### 📌 String Properties & Checks
 
-| #       | Problem                  | File                    |
-| ------- | ------------------------ | ----------------------- |
-| LC 1832 | Pangram Check            | `PanagramOrNot-1832.cpp`|
-| —       | Check String Rotation    | `stringRotated.cpp`     |
+| #       | Problem                  | File                          |
+| ------- | ------------------------ | ----------------------------- |
+| LC 1832 | Pangram Check            | `PanagramOrNot-1832.cpp`      |
+| —       | Check String Rotation    | `stringRotated.cpp`           |
 
 ---
 
@@ -44,7 +45,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 7     |
+| Problems Solved | 8     |
 | Pattern Groups  | 3     |
 | Language        | C++   |
 
@@ -60,6 +61,8 @@
 * `isalnum()` / `tolower()` for valid palindrome filtering
 * Pangram — bitmasking vs frequency array approach
 * In-place string modification vs building new string
+* Sorting vowels while preserving consonant positions
+* Trade-off: `O(n log n)` sorting vs `O(n)` counting approach
 
 ---
 
