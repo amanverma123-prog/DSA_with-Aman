@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-8%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-9%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -29,6 +29,7 @@
 | LC 1108 | Defang an IP Address     | `defangIPAdrress-1108.cpp`        |
 | LC 1910 | Remove Occurrences       | `removeOccurences-1910.cpp`       |
 | LC 2785 | Sort Vowels in a String  | `sortVowels-2785.cpp`             |
+| LC 415  | Add Strings              | `addStrings-415.cpp`              |
 
 ---
 
@@ -45,7 +46,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 8     |
+| Problems Solved | 9     |
 | Pattern Groups  | 3     |
 | Language        | C++   |
 
@@ -63,6 +64,8 @@
 * In-place string modification vs building new string
 * Sorting vowels while preserving consonant positions
 * Trade-off: `O(n log n)` sorting vs `O(n)` counting approach
+* Adding large numbers using strings (carry-based addition)
+* Optimized multi-loop solution into a single loop
 
 ---
 
