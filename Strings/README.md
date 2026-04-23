@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-9%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-10%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -13,32 +13,33 @@
 
 ### 📌 String Basics
 
-| #       | Problem                  | File                          |
-| ------- | ------------------------ | ----------------------------- |
-| LC 344  | Reverse String           | `reverseString.cpp`           |
-| —       | Palindrome or Not        | `palindrome.cpp`              |
-| LC 125  | Valid Palindrome         | `validpalindrome-125.cpp`     |
-| —       | Strings Basics           | `stringsBasics.cpp`           |
+| #       | Problem              | File                      |
+| ------- | -------------------- | ------------------------- |
+| LC 344  | Reverse String       | `reverseString.cpp`       |
+| —       | Palindrome or Not    | `palindrome.cpp`          |
+| LC 125  | Valid Palindrome     | `validpalindrome-125.cpp` |
+| —       | Strings Basics       | `stringsBasics.cpp`       |
 
 ---
 
 ### 📌 String Manipulation
 
-| #       | Problem                  | File                              |
-| ------- | ------------------------ | --------------------------------- |
-| LC 1108 | Defang an IP Address     | `defangIPAdrress-1108.cpp`        |
-| LC 1910 | Remove Occurrences       | `removeOccurences-1910.cpp`       |
-| LC 2785 | Sort Vowels in a String  | `sortVowels-2785.cpp`             |
-| LC 415  | Add Strings              | `addStrings-415.cpp`              |
+| #       | Problem                  | File                         |
+| ------- | ------------------------ | ---------------------------- |
+| LC 1108 | Defang an IP Address     | `defangIPAdrress-1108.cpp`   |
+| LC 1910 | Remove Occurrences       | `removeOccurences-1910.cpp`  |
+| LC 2785 | Sort Vowels in a String  | `sortVowels-2785.cpp`        |
+| LC 415  | Add Strings              | `addStrings-415.cpp`         |
+| LC 13   | Roman to Integer         | `romanToInteger-13.cpp`      |
 
 ---
 
 ### 📌 String Properties & Checks
 
-| #       | Problem                  | File                          |
-| ------- | ------------------------ | ----------------------------- |
-| LC 1832 | Pangram Check            | `PanagramOrNot-1832.cpp`      |
-| —       | Check String Rotation    | `stringRotated.cpp`           |
+| #       | Problem               | File                     |
+| ------- | --------------------- | ------------------------ |
+| LC 1832 | Pangram Check         | `PanagramOrNot-1832.cpp` |
+| —       | Check String Rotation | `stringRotated.cpp`      |
 
 ---
 
@@ -46,7 +47,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 9     |
+| Problems Solved | 10    |
 | Pattern Groups  | 3     |
 | Language        | C++   |
 
@@ -65,7 +66,9 @@
 * Sorting vowels while preserving consonant positions
 * Trade-off: `O(n log n)` sorting vs `O(n)` counting approach
 * Adding large numbers using strings (carry-based addition)
-* Optimized multi-loop solution into a single loop
+* Greedy approach with right-to-left traversal (Roman to Integer)
+* Handling subtractive cases efficiently (`IV`, `IX`, etc.)
+* Optimized multi-loop solution into a single traversal
 
 ---
 
