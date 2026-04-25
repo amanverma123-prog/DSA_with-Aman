@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-11%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -37,10 +37,11 @@
 
 ### 📌 String Properties & Checks
 
-| #       | Problem               | File                     |
-| ------- | --------------------- | ------------------------ |
-| LC 1832 | Pangram Check         | `PanagramOrNot-1832.cpp` |
-| —       | Check String Rotation | `stringRotated.cpp`      |
+| #       | Problem                    | File                          |
+| ------- | -------------------------- | ----------------------------- |
+| LC 1832 | Pangram Check              | `PanagramOrNot-1832.cpp`      |
+| —       | Check String Rotation      | `stringRotated.cpp`           |
+| LC 58   | Length of Last Word        | `lengthOfLastWord-58.cpp`     |
 
 ---
 
@@ -48,7 +49,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 11    |
+| Problems Solved | 12    |
 | Pattern Groups  | 3     |
 | Language        | C++   |
 
@@ -69,6 +70,8 @@
 * Adding large numbers using strings (carry-based addition)  
 * Greedy approach for number-to-symbol mapping (Integer to Roman)  
 * Handling subtractive cases (`IV`, `IX`, `XL`, `XC`, `CD`, `CM`)  
+* Reverse traversal for string parsing problems  
+* Handling trailing spaces before extracting meaningful data  
 * Pattern-based thinking over brute force improves clarity  
 
 ---
