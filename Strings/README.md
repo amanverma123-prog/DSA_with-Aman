@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -41,6 +41,8 @@
 | #       | Problem                    | File                          |
 | ------- | -------------------------- | ----------------------------- |
 | LC 1832 | Pangram Check              | `PanagramOrNot-1832.cpp`      |
+| LC 242  | Valid Anagram              | `validAnagram-242.cpp`        |
+| LC 796  | Rotate String              | `rotateString-796.cpp`        |
 | —       | Check String Rotation      | `stringRotated.cpp`           |
 | LC 58   | Length of Last Word        | `lengthOfLastWord-58.cpp`     |
 
@@ -50,7 +52,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 13    |
+| Problems Solved | 15    |
 | Pattern Groups  | 3     |
 | Language        | C++   |
 
@@ -63,6 +65,7 @@
 * `substr()` — pos vs length distinction  
 * String concatenation trick for rotation check (`s1 + s1`)  
 * `find()` for substring search — returns `npos` on miss  
+* Frequency array (`vector<int> freq(26)`) for anagram check  
 * `isalnum()` / `tolower()` for valid palindrome filtering  
 * Pangram — bitmasking vs frequency array approach  
 * In-place string modification vs building new string  
@@ -75,6 +78,8 @@
 * Handling trailing spaces before extracting meaningful data  
 * Pattern: parsing + word extraction + reconstruction  
 * Trade-off: O(n) extra space vs O(1) in-place reversal approach  
+* Rotation check using substring trick (`s + s`)  
+* Early exit optimization in frequency-based problems  
 
 ---
 
