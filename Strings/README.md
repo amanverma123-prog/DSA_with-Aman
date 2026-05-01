@@ -1,53 +1,89 @@
 # 🔍 Striver's DSA — Strings
 
-> C++ solutions from Striver's DSA Sheet, organized by pattern.
+> C++ solutions from Striver's DSA Sheet, organized by patterns.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-18%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-22%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
 
-## 📁 Problems Solved
+## 📁 Problems Solved (Pattern-Based)
 
-### 📌 String Basics
+---
+
+### 🔹 Two Pointer Technique
+
+| #       | Problem                          | File                      |
+| ------- | -------------------------------- | ------------------------- |
+| LC 344  | Reverse String                   | `reverseString.cpp`       |
+| LC 125  | Valid Palindrome                 | `validpalindrome-125.cpp` |
+| LC 345  | Reverse Vowels                   | `reverseVowels-345.cpp`   |
+| LC 151  | Reverse Words in String          | `reverseWords-151.cpp`    |
+| LC 58   | Length of Last Word              | `lengthOfLastword-58.cpp` |
+| LC 2390 | Removing Stars (in-place)        | `removeStars-2390.cpp`    |
+
+---
+
+### 🔹 Stack / Stack Simulation
+
+| #       | Problem                          | File                         |
+| ------- | -------------------------------- | ---------------------------- |
+| LC 20   | Valid Parentheses                | `validParentheses-20.cpp`    |
+| LC 1047 | Remove Adjacent Duplicates       | `removeDuplicates-1047.cpp`  |
+| LC 2390 | Removing Stars (stack approach)  | `removeStars-2390.cpp`       |
+
+---
+
+### 🔹 Hashing / Frequency Count
+
+| #       | Problem                          | File                         |
+| ------- | -------------------------------- | ---------------------------- |
+| LC 242  | Valid Anagram                    | `validAnagram-242.cpp`       |
+| LC 389  | Find the Difference              | `findTheDifference-389.cpp`  |
+| LC 1832 | Pangram Check                    | `PanagramOrNot-1832.cpp`     |
+
+---
+
+### 🔹 String Manipulation
+
+| #       | Problem                          | File                          |
+| ------- | -------------------------------- | ----------------------------- |
+| LC 1108 | Defang IP Address                | `defangIPAdrress-1108.cpp`    |
+| LC 1910 | Remove Occurrences               | `removeOccurences-1910.cpp`   |
+| LC 2785 | Sort Vowels                      | `sortVowels-2785.cpp`         |
+| LC 415  | Add Strings                      | `addStrings-415.cpp`          |
+| LC 1903 | Largest Odd Number               | `largestOddNumber-1903.cpp`   |
+
+---
+
+### 🔹 Math + String Conversion
 
 | #       | Problem              | File                      |
 | ------- | -------------------- | ------------------------- |
-| LC 344  | Reverse String       | `reverseString.cpp`       |
+| LC 13   | Roman to Integer     | `romanToInt-13.cpp`       |
+| LC 12   | Integer to Roman     | `IntegerToRoman-12.cpp`   |
+
+---
+
+### 🔹 String Matching / Patterns
+
+| #       | Problem                      | File                        |
+| ------- | ---------------------------- | --------------------------- |
+| LC 14   | Longest Common Prefix        | `longestCommonPrefix-14.cpp`|
+| LC 796  | Rotate String                | `rotateString-796.cpp`      |
+| —       | Check String Rotation        | `stringRotated.cpp`         |
+
+---
+
+### 🔹 Basics / Misc
+
+| #       | Problem              | File                      |
+| ------- | -------------------- | ------------------------- |
 | LC 9    | Palindrome Number    | `palindromeNumber-9.cpp`  |
 | —       | Palindrome or Not    | `palindrome.cpp`          |
-| LC 125  | Valid Palindrome     | `validpalindrome-125.cpp` |
 | —       | Strings Basics       | `stringsBasics.cpp`       |
-
----
-
-### 📌 String Manipulation
-
-| #       | Problem                      | File                          |
-| ------- | ---------------------------- | ----------------------------- |
-| LC 1108 | Defang an IP Address         | `defangIPAdrress-1108.cpp`    |
-| LC 1910 | Remove Occurrences           | `removeOccurences-1910.cpp`   |
-| LC 2785 | Sort Vowels in a String      | `sortVowels-2785.cpp`         |
-| LC 345  | Reverse Vowels of a String   | `reverseVowels-345.cpp`       |
-| LC 415  | Add Strings                  | `addStrings-415.cpp`          |
-| LC 13   | Roman to Integer             | `romanToInteger-13.cpp`       |
-| LC 12   | Integer to Roman             | `integerToRoman-12.cpp`       |
-| LC 151  | Reverse Words in a String    | `reverseWords-151.cpp`        |
-
----
-
-### 📌 String Properties & Checks
-
-| #       | Problem                      | File                              |
-| ------- | ---------------------------- | --------------------------------- |
-| LC 14   | Longest Common Prefix        | `longestCommonPrefix-14.cpp`       |
-| LC 1832 | Pangram Check                | `PanagramOrNot-1832.cpp`          |
-| LC 242  | Valid Anagram                | `validAnagram-242.cpp`            |
-| LC 796  | Rotate String                | `rotateString-796.cpp`            |
-| —       | Check String Rotation        | `stringRotated.cpp`               |
-| LC 58   | Length of Last Word          | `lengthOfLastWord-58.cpp`         |
 
 ---
 
@@ -55,37 +91,23 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 18    |
-| Pattern Groups  | 3     |
+| Problems Solved | 22    |
+| Pattern Groups  | 7     |
 | Language        | C++   |
 
 ---
 
 ## 💡 Key Learnings
 
-* Two-pointer technique for palindrome & reverse  
-* ASCII manipulation for character checks  
-* `substr()` — pos vs length distinction  
-* String concatenation trick for rotation check (`s1 + s1`)  
-* `find()` for substring search — returns `npos` on miss  
-* Frequency array (`vector<int> freq(26)`) for anagram check  
-* `isalnum()` / `tolower()` for valid palindrome filtering  
-* Pangram — bitmasking vs frequency array approach  
-* In-place string modification vs building new string  
-* Sorting vowels while preserving consonant positions  
-* Two-pointer technique for selective swapping (vowels problem)  
-* Trade-off: `O(n log n)` sorting vs `O(n)` counting approach  
-* Adding large numbers using strings (carry-based addition)  
-* Greedy approach for number-to-symbol mapping (Integer to Roman)  
-* Handling subtractive cases (`IV`, `IX`, `XL`, `XC`, `CD`, `CM`)  
-* Reverse traversal for string parsing problems  
-* Handling trailing spaces before extracting meaningful data  
-* Pattern: parsing + word extraction + reconstruction  
-* Trade-off: O(n) extra space vs O(1) in-place reversal approach  
-* Rotation check using substring trick (`s + s`)  
-* Early exit optimization in frequency-based problems  
-* Vertical scanning technique for prefix comparison  
-* Early stopping when mismatch occurs (optimization)
+* Two-pointer technique for in-place modification  
+* Stack vs in-place optimization trade-offs  
+* Hashing vs XOR for frequency problems  
+* Pattern recognition: remove / undo → stack  
+* Pattern recognition: overwrite → two pointers  
+* Greedy removal strategies in strings  
+* String parsing and reconstruction patterns  
+* Rotation & substring tricks (`s + s`)  
+* Efficient space optimization techniques  
 
 ---
 
