@@ -23,3 +23,5 @@ int main(){
     cout<<removeOuterParentheses(s);
     return 0;
 }
+
+// We can do in-place adjustments in the string 's' itself usinf a pointer 
