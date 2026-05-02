@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-22%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-23%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -28,11 +28,12 @@
 
 ### 🔹 Stack / Stack Simulation
 
-| #       | Problem                          | File                         |
-| ------- | -------------------------------- | ---------------------------- |
-| LC 20   | Valid Parentheses                | `validParentheses-20.cpp`    |
-| LC 1047 | Remove Adjacent Duplicates       | `removeDuplicates-1047.cpp`  |
-| LC 2390 | Removing Stars (stack approach)  | `removeStars-2390.cpp`       |
+| #       | Problem                          | File                                   |
+| ------- | -------------------------------- | -------------------------------------- |
+| LC 20   | Valid Parentheses                | `validParentheses-20.cpp`              |
+| LC 1047 | Remove Adjacent Duplicates       | `removeDuplicates-1047.cpp`            |
+| LC 2390 | Removing Stars (stack approach)  | `removeStars-2390.cpp`                 |
+| LC 1021 | Remove Outermost Parentheses     | `removeOuterParentheses-1021.cpp`      |
 
 ---
 
@@ -91,7 +92,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 22    |
+| Problems Solved | 23    |
 | Pattern Groups  | 7     |
 | Language        | C++   |
 
@@ -108,6 +109,7 @@
 * String parsing and reconstruction patterns  
 * Rotation & substring tricks (`s + s`)  
 * Efficient space optimization techniques  
+* Depth-based parsing for parentheses problems  
 
 ---
 
