@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-24%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-25%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -56,6 +56,7 @@
 | LC 2785 | Sort Vowels                      | `sortVowels-2785.cpp`         |
 | LC 415  | Add Strings                      | `addStrings-415.cpp`          |
 | LC 1903 | Largest Odd Number               | `largestOddNumber-1903.cpp`   |
+| LC 8    | String to Integer (atoi)         | `stringToInteger-8.cpp`       |
 
 ---
 
@@ -75,7 +76,7 @@
 | LC 14   | Longest Common Prefix        | `longestCommonPrefix-14.cpp`|
 | LC 796  | Rotate String                | `rotateString-796.cpp`      |
 | —       | Check String Rotation        | `stringRotated.cpp`         |
-| LC 205  | Isomorphic String            | `isomorhicString-205.cpp`   |
+| LC 205  | Isomorphic String            | `isomorphicString-205.cpp`  |
 
 ---
 
@@ -93,7 +94,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 24    |
+| Problems Solved | 25    |
 | Pattern Groups  | 7     |
 | Language        | C++   |
 
@@ -111,6 +112,10 @@
 * Rotation & substring tricks (`s + s`)  
 * Efficient space optimization techniques  
 * Depth-based parsing for parentheses problems  
+* Robust string parsing with multiple conditions (spaces, signs, digits)  
+* Overflow prevention using mathematical bounds check  
+* Importance of checking overflow BEFORE updating value  
+* Handling invalid and mixed input safely (defensive programming)  
 
 ---
 
