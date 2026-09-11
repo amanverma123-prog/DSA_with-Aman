@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-21%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-22%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -45,6 +45,7 @@
 | LC 101  | Symmetric Tree                            | `symmetricTree-101.cpp`        |
 | LC 236  | Lowest Common Ancestor of a Binary Tree   | `lowestCommonAncestor-236.cpp` |
 | LC 257  | Binary Tree Paths                         | `binaryTreePaths-257.cpp`      |
+| LC 222  | Count Complete Tree Nodes                 | `countCompleteTreeNodes-222.cpp` |
 | —       | All Root-to-Leaf Paths                    | `allRootToLeaf.cpp`            |
 
 ---
@@ -63,7 +64,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **21**  |
+| Problems Solved | **22**  |
 | Pattern Groups  | **5**   |
 | Language        | **C++** |
 
@@ -135,6 +136,14 @@
 - Building paths dynamically while moving from parent to child
 - Using recursion to explore every possible root-to-leaf path
 - Understanding how DFS can be used for path construction problems
+- Counting nodes efficiently in a Complete Binary Tree
+- Calculating leftmost and rightmost subtree heights
+- Recognizing a Perfect Binary Tree when left and right heights are equal
+- Using `(2^h - 1)` to count nodes in a perfect binary tree
+- Reducing unnecessary traversal by exploiting Complete Binary Tree properties
+- Understanding recursive divide-and-conquer optimization
+- Analyzing tree algorithms with O(log² n) time complexity
+- Using tree structure to optimize recursive node counting
 
 ---
 
@@ -163,6 +172,7 @@
 - ✅ All Root-to-Leaf Paths
 - ✅ Binary Tree Paths (LC 257)
 - ✅ Lowest Common Ancestor (LCA)
+- ✅ Count Complete Tree Nodes (LC 222)
 - ⏳ Left View of Binary Tree
 - ⏳ Serialize & Deserialize Binary Tree
 - ⏳ Binary Search Trees (BST)
