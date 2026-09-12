@@ -1,10 +1,10 @@
 # 🌳 Striver's DSA — Binary Trees
  
-> C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, tree views, and fundamental tree concepts.
+> C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, tree views, tree construction, and fundamental tree concepts.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-22%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-23%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
  
 ---
@@ -28,35 +28,43 @@
 | ------ | ---------------------------------------- | ----------------------------- |
 | LC 102 | Binary Tree Level Order Traversal        | `levelOrderTraversal-102.cpp` |
 | LC 103 | Binary Tree Zigzag Level Order Traversal | `zigzagLevelOrder-103.cpp`    |
-| LC 662 | Maximum Width of Binary Tree              | `widthOfBinaryTree-662.cpp`   |
+| LC 662 | Maximum Width of Binary Tree             | `widthOfBinaryTree-662.cpp`   |
 
 ---
 
 ## 📌 Tree DFS
 
-| #       | Problem                                   | File                           |
-| ------- | ----------------------------------------- | ------------------------------ |
-| LC 104  | Maximum Depth of Binary Tree              | `maximumDepth-104.cpp`         |
-| LC 110  | Balanced Binary Tree                      | `balancedBinaryTree-110.cpp`   |
-| LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp`  |
-| LC 543  | Diameter of Binary Tree                   | `diameterOfBinaryTree-543.cpp` |
-| LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`           |
-| LC 100  | Same Tree                                 | `sameTree-100.cpp`             |
-| LC 101  | Symmetric Tree                            | `symmetricTree-101.cpp`        |
-| LC 236  | Lowest Common Ancestor of a Binary Tree   | `lowestCommonAncestor-236.cpp` |
-| LC 257  | Binary Tree Paths                         | `binaryTreePaths-257.cpp`      |
+| #       | Problem                                   | File                             |
+| ------- | ----------------------------------------- | -------------------------------- |
+| LC 104  | Maximum Depth of Binary Tree              | `maximumDepth-104.cpp`           |
+| LC 110  | Balanced Binary Tree                      | `balancedBinaryTree-110.cpp`     |
+| LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp`    |
+| LC 543  | Diameter of Binary Tree                   | `diameterOfBinaryTree-543.cpp`   |
+| LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`             |
+| LC 100  | Same Tree                                 | `sameTree-100.cpp`               |
+| LC 101  | Symmetric Tree                            | `symmetricTree-101.cpp`          |
+| LC 236  | Lowest Common Ancestor of a Binary Tree   | `lowestCommonAncestor-236.cpp`   |
+| LC 257  | Binary Tree Paths                         | `binaryTreePaths-257.cpp`        |
 | LC 222  | Count Complete Tree Nodes                 | `countCompleteTreeNodes-222.cpp` |
-| —       | All Root-to-Leaf Paths                    | `allRootToLeaf.cpp`            |
+| —       | All Root-to-Leaf Paths                    | `allRootToLeaf.cpp`              |
 
 ---
 
 ## 📌 Binary Tree Views
 
-| #       | Problem                     | File                    |
-| ------- | --------------------------- | ----------------------- |
-| —       | Top View of Binary Tree     | `topView.cpp`            |
-| —       | Bottom View of Binary Tree  | `bottomView.cpp`         |
-| LC 199  | Binary Tree Right Side View | `rightSideView-199.cpp` |
+| #      | Problem                     | File                    |
+| ------ | --------------------------- | ----------------------- |
+| —      | Top View of Binary Tree     | `topView.cpp`           |
+| —      | Bottom View of Binary Tree  | `bottomView.cpp`        |
+| LC 199 | Binary Tree Right Side View | `rightSideView-199.cpp` |
+
+---
+
+## 📌 Binary Tree Construction
+
+| #      | Problem                                                     | File                |
+| ------ | ----------------------------------------------------------- | ------------------- |
+| LC 105 | Construct Binary Tree from Preorder and Inorder Traversal   | `buildTree-105.cpp` |
 
 ---
 
@@ -64,8 +72,8 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **22**  |
-| Pattern Groups  | **5**   |
+| Problems Solved | **23**  |
+| Pattern Groups  | **6**   |
 | Language        | **C++** |
 
 ---
@@ -144,11 +152,19 @@
 - Understanding recursive divide-and-conquer optimization
 - Analyzing tree algorithms with O(log² n) time complexity
 - Using tree structure to optimize recursive node counting
+- Constructing a binary tree using preorder and inorder traversals
+- Using preorder traversal to determine the root of each subtree
+- Using inorder traversal to divide nodes into left and right subtrees
+- Maintaining a preorder index while recursively constructing the tree
+- Using inorder boundaries to recursively construct left and right subtrees
+- Understanding how multiple traversal orders can uniquely reconstruct a binary tree
+- Applying recursive divide-and-conquer to binary tree construction
 
 ---
 
 # 📚 Upcoming Topics
 
+- Construct Binary Tree from Inorder and Postorder Traversal (LC 106)
 - Left View of Binary Tree
 - Serialize & Deserialize Binary Tree (LC 297)
 - Binary Search Trees (BST)
@@ -173,6 +189,8 @@
 - ✅ Binary Tree Paths (LC 257)
 - ✅ Lowest Common Ancestor (LCA)
 - ✅ Count Complete Tree Nodes (LC 222)
+- ✅ Construct Binary Tree from Preorder and Inorder Traversal (LC 105)
+- ⏳ Construct Binary Tree from Inorder and Postorder Traversal (LC 106)
 - ⏳ Left View of Binary Tree
 - ⏳ Serialize & Deserialize Binary Tree
 - ⏳ Binary Search Trees (BST)
