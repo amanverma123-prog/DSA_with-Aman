@@ -6,7 +6,7 @@
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
 ![Problems](https://img.shields.io/badge/Solved-22%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
-
+ 
 ---
 
 # 📁 Problems Solved
