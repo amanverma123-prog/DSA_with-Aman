@@ -13,7 +13,7 @@ struct TreeNode {
     }
 };
 
-// TC = O(h), SC = O(1)
+// TC = O(logn), SC = O(1)
 TreeNode* insertIntoBST(TreeNode* root, int val) {
 
     TreeNode* node = new TreeNode(val);
