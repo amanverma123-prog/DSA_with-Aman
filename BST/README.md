@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Search%20Tree-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-2%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-3%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -13,27 +13,28 @@
 
 ### 📌 BST Operations
 
-| #     | Problem                          | File                     |
-| ----- | -------------------------------- | ------------------------ |
+| # | Problem | File |
+|---|---------|------|
 | LC 701 | Insert into a Binary Search Tree | `insertIntoBST-701.cpp` |
+| LC 450 | Delete Node in a BST | `deleteNode-450.cpp` |
 
 ---
 
 ### 🔍 BST Search
 
-| #     | Problem                       | File                  |
-| ----- | ----------------------------- | --------------------- |
+| # | Problem | File |
+|---|---------|------|
 | LC 700 | Search in a Binary Search Tree | `searchBST-700.cpp` |
 
 ---
 
 ## 📈 Progress
 
-| Metric          | Value |
-| --------------- | ----- |
-| Problems Solved | 2     |
-| Pattern Groups  | 2     |
-| Language        | C++   |
+| Metric | Value |
+|--------|-------|
+| Problems Solved | 3 |
+| Pattern Groups | 2 |
+| Language | C++ |
 
 ---
 
@@ -42,6 +43,12 @@
 * Binary Search Tree properties
 * Searching efficiently in a BST
 * Insertion in a Binary Search Tree
+* Deletion of a node from a BST
+* Handling deletion of leaf nodes
+* Handling nodes with one child
+* Handling nodes with two children
+* Finding the rightmost node of the left subtree
+* Reconnecting subtrees after deletion
 * Iterative BST traversal
 * Finding the correct position for a new node
 * Navigating left when `val < root->data`
